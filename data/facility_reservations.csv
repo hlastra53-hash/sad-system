@@ -1,1 +1,364 @@
-
+Reservation_ID,User_Category,Facility_Type,Facility_ID,Purpose,Submission_Date,Reservation_Date,Lead_Time_Days,Day_Of_Week,Participants,Duration_Hours,Usage_Status,Actual_Attendance,Cancellation_Days_Before
+RES-0001,Administrative Staff,Laboratory,FAC-LAB-05,Event,2025-06-07,2025-06-12,5,Thursday,26,2,Used,13,
+RES-0002,Student,Meeting Room,FAC-MEE-02,Research,2025-02-03,2025-02-12,9,Wednesday,77,4,Used,52,
+RES-0003,Student,Laboratory,FAC-LAB-02,Event,2025-05-29,2025-06-01,3,Sunday,41,3,No-Show,,
+RES-0004,Student Organization,Classroom,FAC-CLA-02,Research,2025-08-08,2025-08-20,12,Wednesday,39,4,Used,34,
+RES-0005,Student Organization,Classroom,FAC-CLA-04,Practice,2025-06-25,2025-06-27,2,Friday,22,1.5,Used,18,
+RES-0006,Student,Laboratory,FAC-LAB-01,Workshop,2025-11-20,2025-12-08,18,Monday,41,1,Used,28,
+RES-0007,Faculty,Meeting Room,FAC-MEE-02,Practice,2025-06-09,2025-06-09,0,Monday,8,3,Cancelled,,0
+RES-0008,Student Organization,Laboratory,FAC-LAB-05,Meeting,2025-10-04,2025-10-12,8,Sunday,11,1.5,Cancelled,,8
+RES-0009,Administrative Staff,Laboratory,FAC-LAB-04,Practice,2025-08-13,2025-08-16,3,Saturday,58,4,Used,56,
+RES-0010,Student,Meeting Room,FAC-MEE-01,Meeting,2025-01-28,2025-02-01,4,Saturday,1,4,Used,1,
+RES-0011,Student Organization,Classroom,FAC-CLA-01,Lecture,2025-05-16,2025-05-25,9,Sunday,23,1.5,Used,20,
+RES-0012,Student Organization,Sports Facility,FAC-SPO-02,Workshop,2025-11-13,2025-12-02,19,Tuesday,77,1,Cancelled,,12
+RES-0013,Student,Classroom,FAC-CLA-02,Workshop,2025-02-16,2025-03-05,17,Wednesday,77,2,Used,67,
+RES-0014,Student,Classroom,FAC-CLA-01,Workshop,2025-11-11,2025-11-16,5,Sunday,17,2,Used,16,
+RES-0015,Student,Meeting Room,FAC-MEE-05,Event,2025-04-26,2025-04-29,3,Tuesday,67,1.5,No-Show,,
+RES-0016,Student,Classroom,FAC-CLA-03,Practice,2025-10-15,2025-10-16,1,Thursday,28,2,Cancelled,,0
+RES-0017,Student Organization,Sports Facility,FAC-SPO-06,Workshop,2025-04-26,2025-05-02,6,Friday,36,0.5,Cancelled,,6
+RES-0018,Administrative Staff,Laboratory,FAC-LAB-06,Meeting,2025-02-14,2025-02-17,3,Monday,70,4,Used,65,
+RES-0019,Faculty,Sports Facility,FAC-SPO-01,Meeting,2025-05-22,2025-05-23,1,Friday,58,2,Used,56,
+RES-0020,Faculty,Sports Facility,FAC-SPO-04,Workshop,2025-09-26,2025-09-30,4,Tuesday,71,0.5,Used,66,
+RES-0021,Faculty,Sports Facility,FAC-SPO-03,Event,2025-03-26,2025-03-27,1,Thursday,37,3,Used,38,
+RES-0022,Administrative Staff,Laboratory,FAC-LAB-06,Practice,2025-01-18,2025-01-21,3,Tuesday,19,1.5,Cancelled,,0
+RES-0023,Administrative Staff,Auditorium,FAC-AUD-01,Lecture,2025-05-19,2025-05-20,1,Tuesday,40,3,Used,28,
+RES-0024,Faculty,Classroom,FAC-CLA-02,Meeting,2025-01-04,2025-01-09,5,Thursday,38,2,Used,31,
+RES-0025,Student Organization,Classroom,FAC-CLA-03,Event,2025-10-30,2025-11-06,7,Thursday,48,3,Used,33,
+RES-0026,Student,Meeting Room,FAC-MEE-04,Event,2025-05-19,2025-06-01,13,Sunday,27,3,Used,20,
+RES-0027,Student Organization,Auditorium,FAC-AUD-05,Practice,2025-10-21,2025-10-26,5,Sunday,,0.5,Used,16,
+RES-0028,Student,Classroom,FAC-CLA-01,Practice,2025-03-01,2025-03-04,3,Tuesday,1,3,Used,1,
+RES-0029,Student,Auditorium,FAC-AUD-05,Lecture,2025-06-18,2025-06-20,2,Friday,1,3,Used,1,
+RES-0030,Faculty,Classroom,FAC-CLA-02,Lecture,2025-04-25,2025-05-06,11,Tuesday,39,1,Used,33,
+RES-0031,Student,Classroom,FAC-CLA-04,Workshop,2025-10-18,2025-10-29,11,Wednesday,12,1.5,Used,12,
+RES-0032,Administrative Staff,Sports Facility,FAC-SPO-04,Workshop,2025-10-21,2025-10-25,4,Saturday,20,2,No-Show,,
+RES-0033,Student,meeting room,FAC-MEE-06,Lecture,2025-05-21,2025-05-28,7,Wednesday,59,2,Used,38,
+RES-0034,Administrative Staff,Meeting Room,FAC-MEE-05,Event,2025-05-29,2025-06-04,6,Wednesday,34,3,Used,27,
+RES-0035,Student Organization,Meeting Room,FAC-MEE-04,Practice,2025-01-31,2025-02-09,9,Sunday,9,2,Cancelled,,8
+RES-0036,Faculty,Auditorium,FAC-AUD-02,Practice,2025-02-03,2025-02-10,7,Monday,16,4,Used,8,
+RES-0037,Student,Classroom,FAC-CLA-02,Lecture,2025-02-02,2025-02-06,4,Thursday,57,1.5,Used,27,
+RES-0038,Faculty,Auditorium,FAC-AUD-02,Lecture,2025-04-19,2025-04-25,6,Friday,72,3,Used,72,
+RES-0039,Student Organization,Laboratory,FAC-LAB-06,Research,2025-01-05,2025-01-14,9,Tuesday,54,2,Used,31,
+RES-0040,Student Organization,Classroom,FAC-CLA-06,Lecture,2025-02-25,2025-03-01,4,Saturday,56,1.5,Used,37,
+RES-0041,Student,Laboratory,FAC-LAB-04,Lecture,2025-02-04,2025-02-23,-3,Sunday,44,0.5,Used,45,
+RES-0042,Student Organization,Sports Facility,FAC-SPO-06,Workshop,2025-08-05,2025-08-10,5,Sunday,18,2,Used,13,
+RES-0043,Student,Classroom,FAC-CLA-04,Meeting,2025-07-04,2025-07-06,2,Sunday,30,2,Used,14,
+RES-0044,Student Organization,Meeting Room,FAC-MEE-04,Event,2025-07-25,2025-07-27,2,Sunday,41,1,Cancelled,,1
+RES-0045,Student Organization,Classroom,FAC-CLA-05,Event,2025-09-01,2025-09-04,3,Thursday,5,2,Used,5,
+RES-0046,Student Organization,Sports Facility,FAC-SPO-06,Research,2025-02-15,2025-02-17,2,Monday,14,3,Used,12,
+RES-0047,Student Organization,Meeting Room,FAC-MEE-03,Meeting,2025-06-29,2025-06-30,1,Monday,27,3,Cancelled,,1
+RES-0048,Student,Meeting Room,FAC-MEE-05,Meeting,2025-02-08,2025-02-09,1,Sunday,10,2,Used,7,
+RES-0049,Faculty,classroom,FAC-CLA-06,Lecture,2025-08-17,2025-08-26,9,Tuesday,62,0.5,Used,65,
+RES-0050,Faculty,Laboratory,FAC-LAB-05,Workshop,2025-05-06,2025-05-16,10,Friday,37,3,Used,39,
+RES-0051,Administrative Staff,Classroom,FAC-CLA-05,Meeting,2025-02-16,2025-02-22,6,Saturday,30,0.5,Used,24,
+RES-0052,Administrative Staff,Classroom,FAC-CLA-03,Event,2025-05-20,2025-05-26,6,Monday,7,1.5,Used,4,
+RES-0053,Student,Laboratory,FAC-LAB-03,Lecture,2025-01-07,2025-01-09,2,Thursday,34,3,No-Show,,
+RES-0054,Student Organization,Auditorium,FAC-AUD-06,Event,2025-09-02,2025-09-10,8,Wednesday,40,1.5,Used,24,
+RES-0055,Faculty,Classroom,FAC-CLA-06,Research,2025-09-19,2025-09-20,1,Saturday,74,1,Cancelled,,1
+RES-0056,Student Organization,Classroom,FAC-CLA-04,Event,2025-09-19,2025-09-22,3,Monday,23,1,Used,20,
+RES-0057,Student,Classroom,FAC-CLA-05,Workshop,2025-01-27,2025-01-29,2,Wednesday,68,3,Used,52,
+RES-0058,Student,Classroom,FAC-CLA-04,Event,2025-04-07,2025-04-12,5,Saturday,23,3,Used,16,
+RES-0059,Faculty,Laboratory,FAC-LAB-01,Workshop,2025-11-21,2025-11-25,4,Tuesday,74,2,Used,69,
+RES-0060,Student,Sports Facility,FAC-SPO-02,Practice,2025-09-06,2025-09-14,8,Sunday,72,1.5,Used,62,
+RES-0061,Administrative Staff,Classroom,FAC-CLA-03,Research,2025-04-27,2025-05-05,8,Monday,52,1,Used,46,
+RES-0062,Faculty,Laboratory,FAC-LAB-01,Workshop,2025-07-07,2025-07-18,11,Friday,8,3,Cancelled,,0
+RES-0063,Student,Meeting Room,FAC-MEE-01,Event,2025-11-26,2025-12-01,5,Monday,74,3,Used,60,
+RES-0064,Student,Sports Facility,FAC-SPO-01,Lecture,2025-05-15,2025-05-16,1,Friday,67,4,Cancelled,,0
+RES-0065,Faculty,Meeting Room,FAC-MEE-05,Research,2025-10-20,2025-10-24,4,Friday,79,1.5,Used,55,
+RES-0066,Faculty,Classroom,FAC-CLA-06,Practice,2025-06-10,2025-06-12,2,Thursday,57,2,Used,34,
+RES-0067,Student Organization,Sports Facility,FAC-SPO-06,Event,2025-02-16,2025-02-17,1,Monday,75,1.5,Used,78,
+RES-0068,Student,Laboratory,FAC-LAB-01,Meeting,2025-03-23,2025-04-02,10,Wednesday,51,1,Cancelled,,1
+RES-0069,Faculty,Laboratory,FAC-LAB-02,Research,2025-05-29,2025-06-07,9,Saturday,59,3,Used,53,
+RES-0070,Student Organization,Laboratory,FAC-LAB-02,Workshop,2025-06-14,2025-06-16,2,Monday,40,1,No-Show,,
+RES-0071,Student,Classroom,FAC-CLA-01,Meeting,2025-04-19,2025-04-28,9,Monday,6,0.5,Used,5,
+RES-0072,Administrative Staff,Sports Facility,FAC-SPO-03,Event,2025-08-13,2025-08-27,14,Wednesday,63,2,Used,52,
+RES-0073,Faculty,Classroom,FAC-CLA-04,Event,2025-01-12,2025-01-17,5,Friday,13,0.5,Used,7,
+RES-0074,Administrative Staff,Meeting Room,FAC-MEE-03,Meeting,2025-01-23,2025-01-28,5,Tuesday,68,1,Used,33,
+RES-0075,Administrative Staff,Laboratory,FAC-LAB-02,Workshop,2025-06-17,2025-06-26,9,Thursday,49,2,Used,33,
+RES-0076,Student,Classroom,FAC-CLA-06,Workshop,2025-09-02,2025-09-08,6,Monday,25,1,No-Show,,
+RES-0077,Faculty,Laboratory,FAC-LAB-02,Lecture,2025-06-29,2025-07-16,17,Wednesday,34,1,Used,22,
+RES-0078,Student Organization,Meeting Room,FAC-MEE-04,Lecture,2025-06-02,2025-06-08,6,Sunday,3,2,Used,2,
+RES-0079,Student,Auditorium,FAC-AUD-02,Meeting,2025-06-29,2025-07-07,8,Monday,16,3,Used,8,
+RES-0080,Administrative Staff,Laboratory,FAC-LAB-03,Workshop,2025-08-16,2025-08-31,15,Sunday,33,1.5,Used,19,
+RES-0081,Student,Classroom,FAC-CLA-06,,2025-08-14,2025-08-17,3,Sunday,37,3,Used,18,
+RES-0082,Administrative Staff,Meeting Room,FAC-MEE-06,Research,2025-04-04,2025-04-26,22,Saturday,29,3,Cancelled,,0
+RES-0083,Student Organization,Classroom,FAC-CLA-03,Lecture,2025-02-05,2025-02-07,2,Friday,34,2,Used,31,
+RES-0084,Student Organization,meeting room,FAC-MEE-01,Event,2025-07-01,2025-07-10,9,Thursday,40,2,Used,25,
+RES-0085,Faculty,Meeting Room,FAC-MEE-01,Meeting,2025-04-14,2025-04-27,13,Sunday,51,3,Used,29,
+RES-0086,Student Organization,Classroom,FAC-CLA-03,Practice,2025-07-27,2025-08-08,12,Friday,34,1,No-Show,,
+RES-0087,Student,Laboratory,FAC-LAB-05,Lecture,2025-10-07,2025-10-16,9,Thursday,77,3,Used,59,
+RES-0088,Student,Laboratory,FAC-LAB-02,Practice,2025-04-10,2025-04-17,7,Thursday,69,4,Cancelled,,6
+RES-0089,Student Organization,Laboratory,FAC-LAB-06,Meeting,2025-05-08,2025-05-12,4,Monday,48,2,Used,46,
+RES-0090,Faculty,Meeting Room,FAC-MEE-06,Practice,2025-05-09,2025-05-17,8,Saturday,45,1.5,Used,46,
+RES-0091,Student Organization,Classroom,FAC-CLA-04,Event,2025-10-15,2025-10-18,3,Saturday,58,0.5,Cancelled,,0
+RES-0092,Student,classroom,FAC-CLA-05,Meeting,2025-09-03,2025-09-11,8,Thursday,52,4,Cancelled,,5
+RES-0093,Administrative Staff,Auditorium,FAC-AUD-04,Workshop,2025-05-20,2025-06-09,20,Monday,30,2,Cancelled,,0
+RES-0094,Student Organization,Classroom,FAC-CLA-06,Research,2025-09-22,2025-10-02,10,Thursday,41,3,Cancelled,,2
+RES-0095,Student,Laboratory,FAC-LAB-03,Workshop,2025-07-25,2025-08-03,9,Sunday,,1,Used,15,
+RES-0096,Student,Laboratory,FAC-LAB-06,Workshop,2025-11-04,2025-11-08,4,Saturday,41,1,Used,21,
+RES-0097,Student,Classroom,FAC-CLA-04,Event,2025-03-26,2025-04-05,10,Saturday,39,1.5,No-Show,,
+RES-0098,Administrative Staff,Sports Facility,FAC-SPO-06,Research,2025-08-20,2025-08-21,1,Thursday,48,2,Used,49,
+RES-0099,Student,Meeting Room,FAC-MEE-01,Practice,2025-11-17,2025-11-30,13,Sunday,20,1,Cancelled,,1
+RES-0100,FACULTY,Classroom,FAC-CLA-01,Workshop,2025-06-02,2025-06-08,6,Sunday,63,1.5,Used,66,
+RES-0101,Student Organization,Classroom,FAC-CLA-04,Meeting,2025-06-08,2025-06-15,7,Sunday,69,2,Used,43,
+RES-0102,Student,Classroom,FAC-CLA-02,Workshop,2025-07-28,2025-07-29,1,Tuesday,79,0.5,Used,48,
+RES-0103,Administrative Staff,Laboratory,FAC-LAB-06,Lecture,2025-10-04,2025-10-06,2,Monday,54,3,Used,29,
+RES-0104,Faculty,Auditorium,FAC-AUD-03,Meeting,2025-02-15,2025-02-17,2,Monday,60,0.5,No-Show,,
+RES-0105,Faculty,Classroom,FAC-CLA-02,Meeting,2025-05-16,2025-05-19,3,Monday,-2,1,Cancelled,,3
+RES-0106,Faculty,Laboratory,FAC-LAB-05,Lecture,2025-10-21,2025-10-29,8,Wednesday,1,2,Used,1,
+RES-0107,Student Organization,Meeting Room,FAC-MEE-04,Practice,2025-02-06,2025-02-11,5,Tuesday,21,1.5,Used,21,
+RES-0108,Student,Meeting Room,FAC-MEE-01,Practice,2025-08-22,2025-08-25,3,Monday,59,1,Used,38,
+RES-0109,Student Organization,Laboratory,FAC-LAB-06,Event,2025-06-13,2025-06-14,1,Saturday,58,2,Cancelled,,1
+RES-0110,Student,Classroom,FAC-CLA-05,Practice,2025-03-26,2025-04-09,14,Wednesday,15,1,Used,11,
+RES-0111,Administrative Staff,Meeting Room,FAC-MEE-05,Research,2025-08-19,2025-09-19,31,Friday,2,2,Used,2,
+RES-0112,Faculty,Classroom,FAC-CLA-04,Workshop,2025-01-05,2025-01-08,3,Wednesday,42,1.5,Used,19,
+RES-0113,Administrative Staff,Laboratory,FAC-LAB-01,Research,2025-03-14,2025-03-21,7,Friday,20,2,Used,17,
+RES-0114,Faculty,Sports Facility,FAC-SPO-02,Lecture,2025-10-12,2025-10-17,5,Friday,76,4,Used,49,
+RES-0115,Student,Classroom,FAC-CLA-01,Workshop,2025-11-06,2025-11-21,15,Friday,34,4,Used,23,
+RES-0116,Faculty,Laboratory,FAC-LAB-03,Event,2025-06-26,2025-06-30,4,Monday,12,1,Cancelled,,4
+RES-0117,Student Organization,Auditorium,FAC-AUD-03,Event,2025-04-30,2025-05-03,3,Saturday,50,0.5,Used,27,
+RES-0118,Faculty,Laboratory,FAC-LAB-01,Meeting,2025-03-24,2025-03-29,5,Saturday,41,4,Used,24,
+RES-0119,Faculty,Classroom,FAC-CLA-06,Research,2025-08-28,2025-09-05,8,Friday,3,0.5,Used,2,
+RES-0120,Student Organization,Classroom,FAC-CLA-05,Workshop,2025-11-14,2025-11-15,1,Saturday,77,1.5,Cancelled,,1
+RES-0121,Administrative Staff,Sports Facility,FAC-SPO-04,Event,2025-11-21,2025-12-06,15,Saturday,56,1,Used,30,
+RES-0122,Administrative Staff,Classroom,FAC-CLA-02,Meeting,2025-03-07,2025-03-15,8,Saturday,8,1.5,Used,4,
+RES-0123,Administrative Staff,Laboratory,FAC-LAB-06,Practice,2025-10-18,2025-10-18,0,Saturday,70,0.5,Cancelled,,0
+RES-0124,Student Organization,Laboratory,FAC-LAB-05,Event,2025-03-23,2025-03-23,0,Sunday,39,3,Used,26,
+RES-0125,Student,Laboratory,FAC-LAB-04,Meeting,2025-01-20,2025-01-22,2,Wednesday,59,3,Cancelled,,1
+RES-0126,Student,Classroom,FAC-CLA-06,Lecture,2025-03-11,2025-03-18,7,Tuesday,57,2,Used,30,
+RES-0127,Student Organization,Classroom,FAC-CLA-02,Workshop,2025-06-03,2025-06-04,1,Wednesday,34,0.5,Used,25,
+RES-0128,Faculty,Meeting Room,FAC-MEE-05,Workshop,2025-10-20,2025-11-10,-2,Monday,64,2,Used,29,
+RES-0129,Student Organization,Auditorium,FAC-AUD-01,Event,2025-03-10,2025-03-12,2,Wednesday,5,1,Cancelled,,1
+RES-0130,Student,Laboratory,FAC-LAB-01,Lecture,2025-09-30,2025-10-23,23,Thursday,73,1.5,Cancelled,,5
+RES-0131,Student Organization,Auditorium,FAC-AUD-06,Event,2025-03-25,2025-03-30,5,Sunday,62,1,Cancelled,,2
+RES-0132,Student,Meeting Room,FAC-MEE-01,Practice,2025-04-28,2025-05-04,6,Sunday,69,3,Used,35,
+RES-0133,Faculty,Classroom,FAC-CLA-01,Event,2025-09-11,2025-09-30,19,Tuesday,57,1.5,Used,60,
+RES-0134,Faculty,Classroom,FAC-CLA-05,Meeting,2025-03-27,2025-03-30,3,Sunday,18,1,Used,10,
+RES-0135,Student Organization,Laboratory,FAC-LAB-05,Lecture,2025-06-03,2025-06-03,0,Tuesday,78,2,Used,77,
+RES-0136,Student,Auditorium,FAC-AUD-02,Workshop,2025-01-01,2025-01-06,5,Monday,9,1,Used,5,
+RES-0137,Student,Classroom,FAC-CLA-03,Meeting,2025-11-23,2025-11-26,3,Wednesday,34,2,Used,34,
+RES-0138,Student Organization,Laboratory,FAC-LAB-06,Workshop,2025-08-31,2025-09-01,1,Monday,41,2,Used,24,
+RES-0139,Administrative Staff,Laboratory,FAC-LAB-06,Meeting,2025-04-25,2025-04-26,1,Saturday,42,4,Used,43,
+RES-0140,Faculty,Sports Facility,FAC-SPO-03,Event,2025-02-23,2025-02-26,3,Wednesday,73,0.5,Used,40,
+RES-0141,Student Organization,Classroom,FAC-CLA-01,Workshop,2025-01-16,2025-01-22,6,Wednesday,70,1.5,Used,52,
+RES-0142,Administrative Staff,Classroom,FAC-CLA-06,Workshop,2025-02-06,2025-02-09,3,Sunday,46,4,Cancelled,,0
+RES-0143,Student,Meeting Room,FAC-MEE-06,Lecture,2025-10-15,2025-10-25,10,Saturday,15,3,Used,15,
+RES-0144,Student Organization,Sports Facility,FAC-SPO-03,Practice,2025-01-08,2025-01-16,8,Thursday,11,2,Used,6,
+RES-0145,Administrative Staff,Classroom,FAC-CLA-06,Practice,2025-09-05,2025-09-23,18,Tuesday,13,4,Used,8,
+RES-0146,Student,Classroom,FAC-CLA-03,Workshop,2025-04-15,2025-04-22,7,Tuesday,,3,Used,34,
+RES-0147,Faculty,Sports Facility,FAC-SPO-04,Lecture,2025-08-13,2025-08-15,2,Friday,50,2,Cancelled,,2
+RES-0148,Faculty,Sports Facility,FAC-SPO-01,Lecture,2025-05-31,2025-06-03,3,Tuesday,32,2,Used,26,
+RES-0149,Administrative Staff,Meeting Room,FAC-MEE-04,Research,2025-06-18,2025-07-03,15,Thursday,74,1,Used,34,
+RES-0150,Student,Laboratory,FAC-LAB-04,Workshop,2025-10-28,2025-11-05,8,Wednesday,39,2,Cancelled,,7
+RES-0151,Faculty,Classroom,FAC-CLA-01,Lecture,2025-04-20,2025-04-27,7,Sunday,76,1.5,Used,50,
+RES-0152,Student Organization,Laboratory,FAC-LAB-01,Practice,2025-04-12,2025-04-16,4,Wednesday,76,4,Cancelled,,3
+RES-0153,Student,Laboratory,FAC-LAB-06,Practice,2025-07-06,2025-07-22,16,Tuesday,64,1.5,Used,47,
+RES-0154,Administrative Staff,Laboratory,FAC-LAB-01,Lecture,2025-02-18,2025-02-20,2,Thursday,6,2,Used,5,
+RES-0155,Faculty,Laboratory,FAC-LAB-03,Practice,2025-07-25,2025-07-29,4,Tuesday,25,1.5,Cancelled,,0
+RES-0156,Student Organization,Laboratory,FAC-LAB-04,Research,2025-11-24,2025-12-06,12,Saturday,14,2,Used,8,
+RES-0157,Administrative Staff,Laboratory,FAC-LAB-05,Lecture,2025-05-01,2025-05-07,6,Wednesday,19,2,Used,13,
+RES-0158,Faculty,Sports Facility,FAC-SPO-02,Lecture,2025-03-19,2025-03-27,8,Thursday,49,1,Used,29,
+RES-0159,Faculty,Laboratory,FAC-LAB-04,Research,2025-09-04,2025-09-10,6,Wednesday,55,0.5,Cancelled,,3
+RES-0160,Administrative Staff,Meeting Room,FAC-MEE-04,Practice,2025-03-22,2025-03-29,7,Saturday,54,1,Used,29,
+RES-0161,Faculty,Meeting Room,FAC-MEE-04,Practice,2025-10-18,2025-10-22,4,Wednesday,23,1.5,Used,11,
+RES-0162,Student Organization,Classroom,FAC-CLA-02,Practice,2025-05-27,2025-06-01,5,Sunday,29,1,Used,17,
+RES-0163,Administrative Staff,Auditorium,FAC-AUD-06,Lecture,2025-06-27,2025-07-01,4,Tuesday,45,4,Cancelled,,0
+RES-0164,Student Organization,Auditorium,FAC-AUD-05,Event,2025-08-21,2025-08-27,6,Wednesday,60,1.5,Used,55,
+RES-0165,Student Organization,Meeting Room,FAC-MEE-04,Event,2025-04-20,2025-05-02,12,Friday,29,2,Used,28,
+RES-0166,Student Organization,Classroom,FAC-CLA-02,Lecture,2025-02-22,2025-02-23,1,Sunday,79,2,Used,72,
+RES-0167,Faculty,Classroom,FAC-CLA-04,Workshop,2025-10-11,2025-10-15,4,Wednesday,9,4,Used,7,
+RES-0168,Student Organization,Classroom,FAC-CLA-01,Workshop,2025-11-04,2025-11-09,5,Sunday,48,2,Used,32,
+RES-0169,Student Organization,Laboratory,FAC-LAB-03,Workshop,2025-10-04,2025-10-06,2,Monday,68,4,Cancelled,,2
+RES-0170,Student,Sports Facility,FAC-SPO-03,,2025-05-17,2025-06-03,17,Tuesday,,3,Used,21,
+RES-0171,student,Sports Facility,FAC-SPO-01,Workshop,2025-03-01,2025-03-09,8,Sunday,59,2,Used,59,
+RES-0172,Student,Auditorium,FAC-AUD-04,Workshop,2025-05-25,2025-05-30,5,Friday,5,3,Used,2,
+RES-0173,Student,Auditorium,FAC-AUD-06,Event,2025-02-17,2025-02-20,3,Thursday,44,1.5,Used,41,
+RES-0174,Student,Classroom,FAC-CLA-04,Lecture,2025-10-11,2025-10-18,7,Saturday,52,1.5,Used,35,
+RES-0175,Faculty,Classroom,FAC-CLA-02,Meeting,2025-03-21,2025-03-27,6,Thursday,30,2,Used,16,
+RES-0176,Student Organization,Classroom,FAC-CLA-04,Research,2025-06-28,2025-07-01,3,Tuesday,3,2,Used,2,
+RES-0177,Administrative Staff,Classroom,FAC-CLA-06,Practice,2025-05-30,2025-05-31,1,Saturday,70,2,Used,48,
+RES-0178,Administrative Staff,Sports Facility,FAC-SPO-02,Practice,2025-02-28,2025-03-02,2,Sunday,62,2,Cancelled,,2
+RES-0179,Student Organization,Sports Facility,FAC-SPO-01,Meeting,2025-01-05,2025-01-11,6,Saturday,38,1.5,Used,18,
+RES-0180,Student,Laboratory,FAC-LAB-04,Practice,2025-07-21,2025-07-23,2,Wednesday,41,1,Used,28,
+RES-0181,Administrative Staff,Classroom,FAC-CLA-04,Lecture,2025-02-13,2025-02-20,7,Thursday,2,2,No-Show,,
+RES-0182,Student,Classroom,FAC-CLA-02,Meeting,2025-11-02,2025-11-07,5,Friday,78,0.5,No-Show,,
+RES-0183,Student,Classroom,FAC-CLA-04,Meeting,2025-03-17,2025-03-24,7,Monday,63,1.5,Used,30,
+RES-0184,Student,Meeting Room,FAC-MEE-02,Research,2025-05-19,2025-05-20,1,Tuesday,42,1.5,Used,42,
+RES-0185,Student Organization,Classroom,FAC-CLA-01,Event,2025-09-21,2025-09-27,6,Saturday,19,3,Used,12,
+RES-0186,FACULTY,Classroom,FAC-CLA-04,Meeting,2025-02-07,2025-02-18,11,Tuesday,22,3,Cancelled,,2
+RES-0187,Administrative Staff,Sports Facility,FAC-SPO-02,Lecture,2025-10-11,2025-11-02,22,Sunday,18,2,Used,9,
+RES-0188,Faculty,Classroom,FAC-CLA-04,Practice,2025-05-23,2025-05-27,4,Tuesday,20,1,No-Show,,
+RES-0189,Student,Classroom,FAC-CLA-05,Practice,2025-01-02,2025-01-03,1,Friday,64,3,Used,60,
+RES-0190,Student Organization,Laboratory,FAC-LAB-03,Research,2025-09-24,2025-10-17,23,Friday,75,1.5,No-Show,,
+RES-0191,Student Organization,Meeting Room,FAC-MEE-04,Workshop,2025-03-15,2025-04-01,17,Tuesday,36,2,Used,19,
+RES-0192,Student Organization,Meeting Room,FAC-MEE-02,Practice,2025-08-04,2025-08-09,5,Saturday,44,1,Cancelled,,3
+RES-0193,Student,Sports Facility,FAC-SPO-01,Meeting,2025-05-03,2025-05-06,3,Tuesday,80,2,Used,47,
+RES-0194,Student,Meeting Room,FAC-MEE-05,Practice,2025-06-18,2025-06-23,5,Monday,55,3,Used,25,
+RES-0195,Student Organization,Sports Facility,FAC-SPO-03,Research,2025-11-09,2025-11-13,4,Thursday,12,1,Used,12,
+RES-0196,Administrative Staff,Classroom,FAC-CLA-03,Research,2025-10-22,2025-11-02,11,Sunday,18,2,Used,17,
+RES-0197,Student Organization,Sports Facility,FAC-SPO-06,Research,2025-05-14,2025-05-15,1,Thursday,21,2,Used,17,
+RES-0198,Student,Classroom,FAC-CLA-05,Lecture,2025-07-24,2025-08-01,8,Friday,69,4,Used,54,
+RES-0199,Student,Classroom,FAC-CLA-04,Practice,2025-08-31,2025-09-03,3,Wednesday,14,3,Cancelled,,1
+RES-0200,Student Organization,Sports Facility,FAC-SPO-03,Practice,2025-09-26,2025-10-03,7,Friday,49,1,Used,47,
+RES-0201,Faculty,laboratory,FAC-LAB-03,Lecture,2025-06-04,2025-06-07,3,Saturday,65,1.5,Used,57,
+RES-0202,Faculty,Sports Facility,FAC-SPO-04,Research,2025-01-02,2025-01-03,1,Friday,5,2,Used,4,
+RES-0203,Student Organization,Meeting Room,FAC-MEE-01,Lecture,2025-05-25,2025-06-01,7,Sunday,20,2,Used,15,
+RES-0204,Student Organization,Classroom,FAC-CLA-06,,2025-04-13,2025-04-24,11,Thursday,71,3,Used,48,
+RES-0205,Faculty,Classroom,FAC-CLA-02,Research,2025-05-16,2025-05-22,6,Thursday,66,4,Used,69,
+RES-0206,Student,Laboratory,FAC-LAB-01,Lecture,2025-01-28,2025-02-09,12,Sunday,64,3,Used,34,
+RES-0207,Faculty,Classroom,FAC-CLA-03,Event,2025-06-11,2025-06-19,8,Thursday,13,0.5,Used,13,
+RES-0208,Student,Meeting Room,FAC-MEE-04,Meeting,2025-01-13,2025-01-20,7,Monday,21,3,Cancelled,,2
+RES-0209,Student Organization,Laboratory,FAC-LAB-05,Meeting,2025-05-21,2025-05-24,3,Saturday,46,1.5,Cancelled,,1
+RES-0210,Student,Classroom,FAC-CLA-06,Practice,2025-01-29,2025-01-31,2,Friday,9,2,Used,5,
+RES-0211,Student,Laboratory,FAC-LAB-01,Lecture,2025-05-18,2025-05-19,1,Monday,11,1.5,Used,10,
+RES-0212,Student,Laboratory,FAC-LAB-03,Lecture,2025-03-29,2025-04-03,5,Thursday,,3,Used,40,
+RES-0213,student,Sports Facility,FAC-SPO-04,Lecture,2025-05-04,2025-05-20,16,Tuesday,51,0.5,Used,35,
+RES-0214,Student Organization,Laboratory,FAC-LAB-02,Event,2025-05-29,2025-06-05,7,Thursday,44,1.5,Cancelled,,3
+RES-0215,Student,Laboratory,FAC-LAB-03,Event,2025-07-16,2025-07-21,5,Monday,41,2,Used,26,
+RES-0216,Administrative Staff,Meeting Room,FAC-MEE-03,Workshop,2025-06-15,2025-06-17,2,Tuesday,76,1.5,Used,58,
+RES-0217,Student,Sports Facility,FAC-SPO-03,Meeting,2025-01-14,2025-01-27,13,Monday,63,1.5,Used,30,
+RES-0218,Student,Meeting Room,FAC-MEE-02,Research,2025-11-12,2025-11-20,8,Thursday,69,2,Cancelled,,0
+RES-0219,Student Organization,Laboratory,FAC-LAB-04,Lecture,2025-08-13,2025-08-14,1,Thursday,3,1.5,Used,3,
+RES-0220,Student Organization,classroom,FAC-CLA-02,Research,2025-10-30,2025-11-12,13,Wednesday,67,1,Used,31,
+RES-0221,Student,Auditorium,FAC-AUD-03,Meeting,2025-03-20,2025-03-25,5,Tuesday,66,2,Used,57,
+RES-0222,Faculty,Sports Facility,FAC-SPO-04,Lecture,2025-04-21,2025-04-28,7,Monday,63,1,Cancelled,,7
+RES-0223,Student,Auditorium,FAC-AUD-03,Workshop,2025-03-08,2025-03-13,5,Thursday,27,2,Cancelled,,5
+RES-0224,Student Organization,Classroom,FAC-CLA-04,Research,2025-04-03,2025-04-08,5,Tuesday,68,3,Used,65,
+RES-0225,Student Organization,Sports Facility,FAC-SPO-04,Practice,2025-08-19,2025-08-23,4,Saturday,49,3,Cancelled,,4
+RES-0226,Faculty,Classroom,FAC-CLA-06,Research,2025-04-02,2025-05-04,32,Sunday,7,2,Used,5,
+RES-0227,Student Organization,Classroom,FAC-CLA-05,Workshop,2025-04-26,2025-05-02,6,Friday,45,2,Used,44,
+RES-0228,Student,Laboratory,FAC-LAB-03,Lecture,2025-04-12,2025-04-17,5,Thursday,73,3,Used,46,
+RES-0229,Student,Classroom,FAC-CLA-02,Practice,2025-09-17,2025-09-29,12,Monday,53,1.5,Used,41,
+RES-0230,Student Organization,Meeting Room,FAC-MEE-05,Meeting,2025-04-11,2025-04-26,15,Saturday,66,1,No-Show,,
+RES-0231,Student Organization,Meeting Room,FAC-MEE-03,Meeting,2025-01-17,2025-01-22,5,Wednesday,59,1,Used,41,
+RES-0232,Student Organization,Meeting Room,FAC-MEE-02,Lecture,2025-06-26,2025-07-10,14,Thursday,77,4,Used,61,
+RES-0233,Student,Auditorium,FAC-AUD-01,Practice,2025-08-24,2025-08-27,3,Wednesday,59,0.5,Used,53,
+RES-0234,Administrative Staff,Sports Facility,FAC-SPO-05,Research,2025-08-21,2025-08-23,2,Saturday,5,0.5,Used,5,
+RES-0235,Student,Classroom,FAC-CLA-01,Research,2025-08-03,2025-08-05,2,Tuesday,25,1.5,Used,12,
+RES-0236,Student Organization,Sports Facility,FAC-SPO-06,Workshop,2025-01-02,2025-01-10,8,Friday,69,0.5,Used,71,
+RES-0237,Student,Classroom,FAC-CLA-02,Lecture,2025-09-13,2025-09-21,8,Sunday,48,0.5,Used,47,
+RES-0238,Faculty,Laboratory,FAC-LAB-04,Practice,2025-04-01,2025-04-11,10,Friday,58,2,Used,33,
+RES-0239,Student,Laboratory,FAC-LAB-02,Event,2025-05-14,2025-05-27,13,Tuesday,38,2,Used,19,
+RES-0240,Student Organization,Laboratory,FAC-LAB-04,Workshop,2025-08-10,2025-08-22,12,Friday,8,3,Used,7,
+RES-0241,Administrative Staff,Meeting Room,FAC-MEE-02,Workshop,2025-02-26,2025-03-18,20,Tuesday,30,2,Used,15,
+RES-0242,Faculty,Laboratory,FAC-LAB-05,Event,2025-03-18,2025-03-27,9,Thursday,62,2,Cancelled,,1
+RES-0243,Student,Meeting Room,FAC-MEE-02,Event,2025-07-07,2025-07-12,5,Saturday,9,2,Cancelled,,0
+RES-0244,Student Organization,Meeting Room,FAC-MEE-05,Workshop,2025-09-28,2025-10-05,7,Sunday,54,0.5,No-Show,,
+RES-0245,Administrative Staff,Laboratory,FAC-LAB-01,Meeting,2025-07-30,2025-07-30,0,Wednesday,59,1.5,No-Show,,
+RES-0246,Faculty,Classroom,FAC-CLA-04,Workshop,2025-03-29,2025-04-10,12,Thursday,44,1.5,Used,44,
+RES-0247,Student,Meeting Room,FAC-MEE-03,Meeting,2025-06-24,2025-06-28,4,Saturday,11,2,Used,7,
+RES-0248,Student Organization,Laboratory,FAC-LAB-02,Meeting,2025-03-12,2025-03-17,5,Monday,45,4,Used,47,
+RES-0249,Student Organization,Classroom,FAC-CLA-04,Event,2025-04-20,2025-04-28,8,Monday,50,2,Cancelled,,1
+RES-0250,Administrative Staff,Classroom,FAC-CLA-05,Lecture,2025-03-05,2025-03-12,7,Wednesday,16,1.5,Used,9,
+RES-0251,Faculty,Classroom,FAC-CLA-03,Event,2025-10-29,2025-11-05,7,Wednesday,53,2,Cancelled,,3
+RES-0252,Student,Classroom,FAC-CLA-04,Meeting,2025-05-01,2025-05-17,16,Saturday,76,4,Used,41,
+RES-0253,Student,Sports Facility,FAC-SPO-03,Research,2025-11-01,2025-11-06,5,Thursday,-8,2,Cancelled,,5
+RES-0254,Faculty,Meeting Room,FAC-MEE-01,Meeting,2025-05-01,2025-05-12,11,Monday,31,2,Cancelled,,7
+RES-0255,Administrative Staff,Laboratory,FAC-LAB-05,Event,2025-09-07,2025-09-13,6,Saturday,51,2,Used,34,
+RES-0256,Student,Meeting Room,FAC-MEE-03,Event,2025-03-27,2025-04-02,6,Wednesday,74,3,Cancelled,,2
+RES-0257,Student Organization,Classroom,FAC-CLA-04,Event,2025-11-04,2025-11-09,5,Sunday,33,4,Used,27,
+RES-0258,Administrative Staff,Sports Facility,FAC-SPO-04,Lecture,2025-06-06,2025-06-06,0,Friday,10,1,Cancelled,,0
+RES-0259,Faculty,Laboratory,FAC-LAB-03,Meeting,2025-10-16,2025-10-25,9,Saturday,23,3,Cancelled,,7
+RES-0260,Student Organization,Classroom,FAC-CLA-06,Event,2025-05-13,2025-05-22,9,Thursday,28,1,Used,16,
+RES-0261,Student,Meeting Room,FAC-MEE-02,Lecture,2025-02-26,2025-03-10,12,Monday,31,3,Cancelled,,12
+RES-0262,Administrative Staff,Laboratory,FAC-LAB-02,Practice,2025-06-04,2025-06-21,17,Saturday,54,3,Used,39,
+RES-0263,Student Organization,Classroom,FAC-CLA-05,Event,2025-03-16,2025-03-18,2,Tuesday,66,4,Cancelled,,1
+RES-0264,Student,Meeting Room,FAC-MEE-05,Workshop,2025-01-10,2025-01-21,11,Tuesday,27,2,Used,13,
+RES-0265,Student,Classroom,FAC-CLA-06,Practice,2025-09-21,2025-09-26,5,Friday,63,0.5,Used,46,
+RES-0266,Student Organization,Auditorium,FAC-AUD-02,Practice,2025-01-26,2025-02-10,15,Monday,78,2,Cancelled,,10
+RES-0267,Student,Classroom,FAC-CLA-05,Workshop,2025-08-16,2025-08-22,6,Friday,78,1,Used,41,
+RES-0268,Student,Classroom,FAC-CLA-03,Workshop,2025-01-08,2025-01-12,4,Sunday,38,1,Used,37,
+RES-0269,Student Organization,Sports Facility,FAC-SPO-01,Research,2025-01-08,2025-01-21,13,Tuesday,19,2,Used,13,
+RES-0270,Faculty,Sports Facility,FAC-SPO-04,Event,2025-03-09,2025-03-15,6,Saturday,58,3,Used,49,
+RES-0271,Administrative Staff,Meeting Room,FAC-MEE-03,Practice,2025-06-30,2025-07-07,7,Monday,69,1,Cancelled,,0
+RES-0272,Student Organization,Classroom,FAC-CLA-03,Event,2025-10-26,2025-10-27,1,Monday,15,3,Cancelled,,1
+RES-0273,Faculty,Laboratory,FAC-LAB-01,Research,2025-08-29,2025-09-23,25,Tuesday,61,1,Used,51,
+RES-0274,Faculty,Laboratory,FAC-LAB-04,,2025-07-13,2025-07-25,12,Friday,47,2,Used,29,
+RES-0275,Student Organization,Classroom,FAC-CLA-03,Research,2025-11-02,2025-11-11,9,Tuesday,7,1.5,Used,7,
+RES-0276,Administrative Staff,Laboratory,FAC-LAB-04,Workshop,2025-01-09,2025-01-10,1,Friday,8,2,Cancelled,,0
+RES-0277,Administrative Staff,Classroom,FAC-CLA-03,Research,2025-10-30,2025-11-03,4,Monday,9,4,Cancelled,,4
+RES-0278,Administrative Staff,Laboratory,FAC-LAB-04,Event,2025-01-13,2025-01-14,1,Tuesday,10,2,Cancelled,,0
+RES-0279,Student,Auditorium,FAC-AUD-01,Workshop,2025-03-13,2025-04-17,35,Thursday,60,2,Used,29,
+RES-0280,Student Organization,Sports Facility,FAC-SPO-05,Workshop,2025-01-27,2025-01-27,0,Monday,67,3,Cancelled,,0
+RES-0281,Student,Meeting Room,FAC-MEE-02,Event,2025-05-08,2025-05-13,5,Tuesday,79,2,Used,57,
+RES-0282,Student,Laboratory,FAC-LAB-02,Workshop,2025-06-12,2025-06-12,0,Thursday,65,4,Used,50,
+RES-0283,Student Organization,Classroom,FAC-CLA-02,Event,2025-05-24,2025-05-30,6,Friday,45,4,Used,38,
+RES-0284,Administrative Staff,Auditorium,FAC-AUD-03,Lecture,2025-03-01,2025-03-02,1,Sunday,24,1,Used,25,
+RES-0285,Faculty,Classroom,FAC-CLA-05,Workshop,2025-09-26,2025-10-07,11,Tuesday,78,2,Used,57,
+RES-0286,Student Organization,Auditorium,FAC-AUD-05,Research,2025-04-16,2025-04-20,4,Sunday,67,1,Used,36,
+RES-0287,Student,Laboratory,FAC-LAB-06,Lecture,2025-04-29,2025-05-01,2,Thursday,32,3,Used,20,
+RES-0288,Faculty,Sports Facility,FAC-SPO-02,Research,2025-06-25,2025-07-15,20,Tuesday,44,2,Used,40,
+RES-0289,Student Organization,Laboratory,FAC-LAB-06,Workshop,2025-06-07,2025-06-14,7,Saturday,13,3,Used,10,
+RES-0290,Student Organization,Sports Facility,FAC-SPO-03,Event,2025-10-09,2025-10-19,10,Sunday,6,1,Used,6,
+RES-0291,Student Organization,Laboratory,FAC-LAB-02,Meeting,2025-09-29,2025-10-05,6,Sunday,55,4,Used,26,
+RES-0292,Administrative Staff,Sports Facility,FAC-SPO-01,Lecture,2025-06-13,2025-06-22,9,Sunday,4,2,Used,2,
+RES-0293,Administrative Staff,Laboratory,FAC-LAB-03,Practice,2025-04-17,2025-04-19,2,Saturday,9,3,Used,6,
+RES-0294,Student,Laboratory,FAC-LAB-01,Lecture,2025-08-18,2025-08-25,7,Monday,22,3,Cancelled,,7
+RES-0295,Administrative Staff,Classroom,FAC-CLA-01,Event,2025-07-21,2025-07-23,2,Wednesday,73,1.5,Used,70,
+RES-0296,Student,Sports Facility,FAC-SPO-06,Lecture,2025-04-14,2025-04-20,6,Sunday,61,2,Used,40,
+RES-0297,Administrative Staff,Laboratory,FAC-LAB-01,Meeting,2025-03-31,2025-03-31,0,Monday,76,1,Cancelled,,0
+RES-0298,Student,Classroom,FAC-CLA-03,Lecture,2025-05-16,2025-05-18,2,Sunday,23,1,Used,11,
+RES-0299,Student Organization,Sports Facility,FAC-SPO-01,Event,2025-03-27,2025-03-30,3,Sunday,52,3,Used,31,
+RES-0300,Student Organization,Classroom,FAC-CLA-04,Workshop,2025-01-09,2025-01-20,11,Monday,20,1.5,Used,18,
+RES-0301,Student,Meeting Room,FAC-MEE-03,Event,2025-11-04,2025-11-09,5,Sunday,70,0.5,Cancelled,,1
+RES-0302,Administrative Staff,Sports Facility,FAC-SPO-03,Event,2025-01-04,2025-01-12,8,Sunday,67,4,Used,56,
+RES-0303,Student Organization,Sports Facility,FAC-SPO-01,Event,2025-10-22,2025-10-30,8,Thursday,3,2,Used,3,
+RES-0304,Student Organization,Classroom,FAC-CLA-05,Practice,2025-06-28,2025-07-04,6,Friday,-8,1,Used,41,
+RES-0305,Student Organization,Classroom,FAC-CLA-05,Practice,2025-06-27,2025-07-02,5,Wednesday,79,1,No-Show,,
+RES-0306,Faculty,Sports Facility,FAC-SPO-05,Research,2025-08-18,2025-08-20,2,Wednesday,11,3,Cancelled,,1
+RES-0307,Student,Classroom,FAC-CLA-04,Practice,2025-11-13,2025-11-27,14,Thursday,62,4,Cancelled,,5
+RES-0308,Student Organization,Sports Facility,FAC-SPO-04,Workshop,2025-04-03,2025-04-06,3,Sunday,42,3,Cancelled,,0
+RES-0309,Student Organization,Classroom,FAC-CLA-02,Meeting,2025-01-29,2025-02-11,13,Tuesday,77,4,Used,76,
+RES-0310,Administrative Staff,Sports Facility,FAC-SPO-05,Meeting,2025-01-14,2025-01-16,2,Thursday,62,3,Used,60,
+RES-0311,Student,Sports Facility,FAC-SPO-03,Event,2025-05-05,2025-05-20,15,Tuesday,72,3,Used,60,
+RES-0312,Student,Classroom,FAC-CLA-04,Event,2025-07-13,2025-07-25,12,Friday,14,2,Used,14,
+RES-0313,Faculty,Meeting Room,FAC-MEE-05,Research,2025-02-22,2025-03-05,11,Wednesday,38,2,Used,19,
+RES-0314,Faculty,Auditorium,FAC-AUD-05,,2025-08-09,2025-08-12,3,Tuesday,73,1,No-Show,,
+RES-0315,Faculty,Classroom,FAC-CLA-05,Lecture,2025-08-09,2025-08-12,3,Tuesday,63,1,Used,66,
+RES-0316,Faculty,Meeting Room,FAC-MEE-02,Practice,2025-07-28,2025-08-03,6,Sunday,42,0.5,Used,21,
+RES-0317,Student Organization,Auditorium,FAC-AUD-04,Workshop,2025-04-10,2025-04-20,10,Sunday,78,4,Used,44,
+RES-0318,Student Organization,Meeting Room,FAC-MEE-03,Event,2025-11-09,2025-11-14,5,Friday,28,2,Used,26,
+RES-0319,Administrative Staff,Laboratory,FAC-LAB-05,Practice,2025-11-09,2025-11-14,5,Friday,30,2,Cancelled,,3
+RES-0320,Faculty,Sports Facility,FAC-SPO-05,Event,2025-09-30,2025-10-09,9,Thursday,27,3,Used,25,
+RES-0321,Student Organization,Classroom,FAC-CLA-04,Research,2025-04-28,2025-05-03,5,Saturday,18,1.5,Used,11,
+RES-0322,Faculty,Classroom,FAC-CLA-06,Research,2025-09-27,2025-10-08,11,Wednesday,3,4,Used,2,
+RES-0323,Student Organization,Classroom,FAC-CLA-02,Practice,2025-11-15,2025-11-21,6,Friday,43,4,Used,22,
+RES-0324,Student,Meeting Room,FAC-MEE-02,Meeting,2025-07-16,2025-07-18,2,Friday,48,1,Cancelled,,2
+RES-0325,Student Organization,Classroom,FAC-CLA-01,Practice,2025-06-25,2025-06-27,2,Friday,37,2,Cancelled,,2
+RES-0326,Student,Auditorium,FAC-AUD-03,Meeting,2025-10-04,2025-10-11,7,Saturday,50,2,Used,45,
+RES-0327,Student,Meeting Room,FAC-MEE-06,Meeting,2025-05-21,2025-05-21,0,Wednesday,52,1,Used,50,
+RES-0328,Administrative Staff,Laboratory,FAC-LAB-03,Meeting,2025-03-02,2025-03-08,6,Saturday,63,1,Used,60,
+RES-0329,Faculty,Meeting Room,FAC-MEE-02,Event,2025-07-26,2025-08-06,11,Wednesday,26,2,No-Show,,
+RES-0330,Student,Classroom,FAC-CLA-06,Workshop,2025-04-01,2025-04-05,4,Saturday,73,3,No-Show,,
+RES-0331,Student,Sports Facility,FAC-SPO-03,Event,2025-08-20,2025-09-03,14,Wednesday,13,1.5,Used,9,
+RES-0332,Student Organization,Sports Facility,FAC-SPO-03,Event,2025-09-15,2025-09-24,9,Wednesday,5,1.5,Used,2,
+RES-0333,Administrative Staff,Meeting Room,FAC-MEE-04,Research,2025-07-19,2025-07-29,10,Tuesday,36,1.5,Used,21,
+RES-0334,Student,Classroom,FAC-CLA-06,Practice,2025-10-03,2025-10-16,13,Thursday,45,1.5,Used,21,
+RES-0335,Faculty,Laboratory,FAC-LAB-01,Research,2025-02-26,2025-02-28,-1,Friday,77,1,Cancelled,,1
+RES-0336,Student,Classroom,FAC-CLA-03,Event,2025-11-13,2025-11-18,5,Tuesday,61,1,Used,51,
+RES-0337,Faculty,Classroom,FAC-CLA-03,Workshop,2025-11-23,2025-11-29,6,Saturday,41,2,Cancelled,,4
+RES-0338,Student Organization,Auditorium,FAC-AUD-06,Practice,2025-03-31,2025-04-01,1,Tuesday,33,2,Cancelled,,1
+RES-0339,Administrative Staff,Classroom,FAC-CLA-05,Meeting,2025-03-25,2025-04-03,9,Thursday,18,1.5,Used,16,
+RES-0340,Student Organization,Sports Facility,FAC-SPO-02,Research,2025-11-24,2025-12-07,13,Sunday,12,0.5,No-Show,,
+RES-0341,Student,Classroom,FAC-CLA-04,Workshop,2025-01-19,2025-01-21,2,Tuesday,-9,1.5,Used,6,
+RES-0342,Faculty,Auditorium,FAC-AUD-01,Meeting,2025-01-08,2025-01-14,6,Tuesday,16,1,No-Show,,
+RES-0343,Faculty,Meeting Room,FAC-MEE-02,Lecture,2025-04-19,2025-05-10,21,Saturday,42,3,Cancelled,,1
+RES-0344,Student,Auditorium,FAC-AUD-03,Workshop,2025-11-14,2025-11-19,5,Wednesday,61,1,Used,32,
+RES-0345,Faculty,Sports Facility,FAC-SPO-04,Workshop,2025-05-29,2025-06-05,7,Thursday,44,1,No-Show,,
+RES-0346,Student,Laboratory,FAC-LAB-02,Event,2025-07-03,2025-07-17,14,Thursday,1,2,Used,1,
+RES-0347,Student Organization,Meeting Room,FAC-MEE-02,,2025-02-16,2025-02-17,1,Monday,36,1.5,Used,25,
+RES-0348,Student Organization,Sports Facility,FAC-SPO-03,Research,2025-07-25,2025-07-28,3,Monday,20,1,No-Show,,
+RES-0349,Faculty,Classroom,FAC-CLA-01,Practice,2025-10-25,2025-11-03,9,Monday,15,0.5,Used,13,
+RES-0350,Student,Sports Facility,FAC-SPO-06,Meeting,2025-09-04,2025-09-09,5,Tuesday,23,2,Used,20,
+RES-0351,Student,Sports Facility,FAC-SPO-03,Workshop,2025-01-28,2025-01-31,3,Friday,25,2,Used,24,
+RES-0352,Faculty,Meeting Room,FAC-MEE-01,Research,2025-06-07,2025-06-29,22,Sunday,7,4,Used,4,
+RES-0353,Administrative Staff,Auditorium,FAC-AUD-03,Workshop,2025-01-15,2025-01-23,8,Thursday,22,2,Used,19,
+RES-0354,Faculty,Meeting Room,FAC-MEE-01,Research,2025-07-05,2025-07-12,7,Saturday,20,2,Used,9,
+RES-0355,Administrative Staff,Sports Facility,FAC-SPO-03,,2025-11-19,2025-12-05,16,Friday,46,0.5,Cancelled,,10
+RES-0356,Student Organization,Auditorium,FAC-AUD-01,Event,2025-04-28,2025-05-01,3,Thursday,19,2,Used,12,
+RES-0357,Faculty,Sports Facility,FAC-SPO-06,Practice,2025-07-17,2025-07-21,4,Monday,24,0.5,Used,17,
+RES-0358,Faculty,Laboratory,FAC-LAB-02,,2025-02-07,2025-02-16,9,Sunday,31,1,Cancelled,,5
+RES-0359,Administrative Staff,Sports Facility,FAC-SPO-03,Workshop,2025-07-27,2025-08-05,9,Tuesday,72,4,Cancelled,,9
+RES-0360,Administrative Staff,Laboratory,FAC-LAB-02,Workshop,2025-04-12,2025-04-29,17,Tuesday,61,1,Used,37,
+RES-0018,Administrative Staff,Laboratory,FAC-LAB-06,Meeting,2025-02-14,2025-02-17,3,Monday,70,4,Used,65,
+RES-0089,Student Organization,Laboratory,FAC-LAB-06,Meeting,2025-05-08,2025-05-12,4,Monday,48,2,Used,46,
+RES-0202,Faculty,Sports Facility,FAC-SPO-04,Research,2025-01-02,2025-01-03,1,Friday,5,2,Used,4,
